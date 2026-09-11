@@ -30,7 +30,6 @@ kmenuedit
 knighttime
 kpipewire
 krdp
-krita
 kscreen
 kscreenlocker
 ksshaskpass
@@ -54,6 +53,7 @@ ntfs-3g
 nvidia-open-dkms
 nvidia-utils
 ocean-sound-theme
+openssh
 os-prober
 oxygen
 oxygen-cursors
@@ -81,6 +81,8 @@ plymouth-kcm
 polkit-kde-agent
 powerdevil
 print-manager
+python-pyqt5
+python-pyqt6
 qqc2-breeze-style
 sddm
 sddm-kcm
