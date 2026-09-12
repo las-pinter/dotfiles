@@ -1,0 +1,6 @@
+brave-bin
+dropbox
+input-remapper
+razergenie
+yay
+yay-debug

@@ -1,9 +1,11 @@
 alacritty
 aurorae
 base
+base-devel
 bluedevil
 bluez
 bluez-utils
+brave-bin
 breeze
 breeze-cursors
 breeze-gtk
@@ -11,12 +13,15 @@ breeze-plymouth
 code
 discover
 dolphin
+dolphin-plugins
 drkonqi
+dropbox
 efibootmgr
 fastfetch
 flatpak-kcm
 git
 grub
+input-remapper
 intel-ucode
 kactivitymanagerd
 kde-cli-tools
@@ -41,6 +46,7 @@ kwin-x11
 kwrited
 layer-shell-qt
 less
+libappindicator
 libkscreen
 libksysguard
 libplasma
@@ -49,10 +55,13 @@ linux-firmware
 linux-headers
 milou
 networkmanager
+nss-mdns
 ntfs-3g
 nvidia-open-dkms
 nvidia-utils
 ocean-sound-theme
+openbsd-netcat
+openrazer-daemon
 openssh
 os-prober
 oxygen
@@ -81,9 +90,11 @@ plymouth-kcm
 polkit-kde-agent
 powerdevil
 print-manager
+python-gpgme
 python-pyqt5
 python-pyqt6
 qqc2-breeze-style
+razergenie
 sddm
 sddm-kcm
 spectacle
@@ -94,3 +105,5 @@ union
 vim
 wacomtablet
 xdg-desktop-portal-kde
+yay
+yay-debug
