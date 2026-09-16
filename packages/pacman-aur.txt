@@ -2,5 +2,8 @@ brave-bin
 dropbox
 input-remapper
 razergenie
+steamcmd
+visual-studio-code-bin
+winbox
 yay
 yay-debug
