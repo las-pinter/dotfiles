@@ -1,3 +1,1 @@
-com.discordapp.Discord
-org.kde.konsole
 org.kde.krita
