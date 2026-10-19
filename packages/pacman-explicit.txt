@@ -1,6 +1,8 @@
 aurorae
 base
 base-devel
+bash-completion
+bat
 bluedevil
 bluez
 bluez-utils
@@ -16,8 +18,11 @@ dolphin-plugins
 drkonqi
 dropbox
 efibootmgr
+eza
 fastfetch
+fd
 flatpak-kcm
+fzf
 ghostty
 git
 grub
@@ -56,6 +61,7 @@ libva-nvidia-driver
 linux-firmware
 linux-lts
 linux-lts-headers
+lutris
 man-db
 milou
 networkmanager
@@ -72,6 +78,8 @@ openbsd-netcat
 openrazer-daemon
 openssh
 os-prober
+otf-monaspace
+otf-monaspace-nerd
 oxygen
 oxygen-cursors
 oxygen-sounds
@@ -107,6 +115,7 @@ razergenie
 sddm
 sddm-kcm
 spectacle
+starship
 steam
 steamcmd
 sudo
@@ -127,3 +136,4 @@ wine-mono
 xdg-desktop-portal-kde
 yay
 yay-debug
+zoxide

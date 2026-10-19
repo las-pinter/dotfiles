@@ -1,9 +1,12 @@
 brave-bin
 dropbox
 input-remapper
+kgamma
+kwin-x11
 razergenie
 steamcmd
 visual-studio-code-bin
+wacomtablet
 winbox
 yay
 yay-debug

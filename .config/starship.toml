@@ -1,0 +1,68 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false          # no blank line between prompts
+command_timeout = 500
+
+# Single line: dir, git, venv, duration, exit code, then the prompt char
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$python\
+$cmd_duration\
+$status\
+$character"""
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncate_to_repo = true
+read_only = " 🔒"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+symbol = ""
+style = "bold purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold red"
+format = '([$all_status$ahead_behind]($style) )'
+conflicted = "="
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+untracked = "?"
+stashed = "$"
+modified = "!"
+staged = "+"
+deleted = "✘"
+
+[python]
+style = "yellow"
+format = '[(\($virtualenv\) )]($style)'   # only shows the active venv name
+
+[cmd_duration]
+min_time = 2000                           # only show for commands > 2s
+style = "yellow"
+format = "[$duration]($style) "
+
+[status]
+disabled = false
+style = "bold red"
+format = "[$status]($style) "             # only appears on non-zero exit
+
+[hostname]
+ssh_only = true                           # only shown over SSH
+format = "[$hostname]($style) "
+style = "bold green"
+
+[username]
+format = "[$user]($style)@"
+style_user = "bold yellow"                # default: only shown for root or SSH
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
