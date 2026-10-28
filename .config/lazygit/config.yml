@@ -1,0 +1,26 @@
+gui:
+  nerdFontsVersion: "3" # icons; needs a Nerd Font in your terminal
+  showFileTree: true
+  showRandomTip: false
+  showBottomLine: false # hides the hint bar once you know the keys
+  border: rounded
+  expandFocusedSidePanel: true
+  sidePanelWidth: 0.25
+  showNumstatInFilesView: true
+git:
+  diffRenderers:
+    - command: delta --dark --paging=never
+  log:
+    order: topo-order
+    showGraph: when-maximised
+  mainBranches: [main, master]
+  autoFetch: true
+  parseEmoji: true
+os:
+  editPreset: vim
+refresher:
+  refreshInterval: 5
+  fetchInterval: 60
+update:
+  method: never
+promptToReturnFromSubprocess: false

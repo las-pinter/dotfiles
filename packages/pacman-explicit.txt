@@ -17,14 +17,17 @@ dolphin
 dolphin-plugins
 drkonqi
 dropbox
+easyeffects
 efibootmgr
 eza
 fastfetch
 fd
 flatpak-kcm
+fluidsynth
 fzf
 ghostty
 git
+git-delta
 grub
 gwenview
 informant
@@ -52,6 +55,7 @@ kwin
 kwin-x11
 kwrited
 layer-shell-qt
+lazygit
 less
 libappindicator
 libkscreen
@@ -61,8 +65,10 @@ libva-nvidia-driver
 linux-firmware
 linux-lts
 linux-lts-headers
+lsp-plugins-lv2
 lutris
 man-db
+mda.lv2
 milou
 networkmanager
 nmap
@@ -84,6 +90,7 @@ oxygen
 oxygen-cursors
 oxygen-sounds
 pavucontrol
+peazip
 plasma-activities
 plasma-activities-stats
 plasma-browser-integration
@@ -114,6 +121,7 @@ qqc2-breeze-style
 razergenie
 sddm
 sddm-kcm
+sl
 spectacle
 starship
 steam
@@ -133,6 +141,7 @@ wacomtablet
 winbox
 wine
 wine-mono
+wl-clipboard
 xdg-desktop-portal-kde
 yay
 yay-debug
