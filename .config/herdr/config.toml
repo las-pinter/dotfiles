@@ -5,10 +5,53 @@ prefix = "ctrl+a"
 split_vertical = "prefix+|"
 
 [ui]
-status_indicators = "dots"
+status_indicators = "symbols"
+tab_bar_right = [
+  { type = "zoom" },
+  { type = "hostname" },
+  { type = "datetime", format = "%H:%M" },
+]
+tab_bar_right_separator = " · "
 
 [ui.toast]
 delivery = "herdr"
+
+[ui.sidebar.agents]
+row_gap = 0
+rows = [
+  ["state_icon", { token = "machine", fg = "#7f849c" }],
+  [{ token = "workspace", bold = true, fg = "#cdd6f4" }, { token = "tab", fg = "#a6adc8" }],
+  [{ token = "agent", bold = true }],
+]
+
+[ui.sidebar.agents.rows_by_agent]
+claude = [
+  ["state_icon", { token = "machine", fg = "#7f849c" }],
+  [{ token = "workspace", bold = true, fg = "#cdd6f4" }, { token = "tab", fg = "#a6adc8" }],
+  [{ token = "agent", bold = true, dim = false, fg = "#de7356" }],
+]
+pi = [
+  ["state_icon", { token = "machine", fg = "#7f849c" }],
+  [{ token = "workspace", bold = true, fg = "#cdd6f4" }, { token = "tab", fg = "#a6adc8" }],
+  [{ token = "agent", bold = true, dim = false, fg = "#a6e3a1" }, { token = "$model_info", fg = "#7f849c" }],
+]
+kiro = [
+  ["state_icon", { token = "machine", fg = "#7f849c" }],
+  [{ token = "workspace", bold = true, fg = "#cdd6f4" }, { token = "tab", fg = "#a6adc8" }],
+  [{ token = "agent", bold = true, dim = false, fg = "#cba6f7" }],
+]
+opencode = [
+  ["state_icon", { token = "machine", fg = "#7f849c" }],
+  [{ token = "workspace", bold = true, fg = "#cdd6f4" }, { token = "tab", fg = "#a6adc8" }],
+  [{ token = "agent", bold = true, dim = false, fg = "#89dceb" }],
+]
+
+[ui.sidebar.spaces]
+row_gap = 0
+rows = [
+  [{ token = "state_icon" }, { token = "workspace" }],
+  [{ token = "branch", fg = "#89b4fa" }, { token = "git_status", fg = "#7f849c" }],
+]
 
 [theme]
 name = "catppuccin"
