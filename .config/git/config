@@ -2,7 +2,7 @@
     path = ~/.gitconfig.local
 
 [core]
-    editor = /usr/bin/vim
+    editor = /usr/bin/nvim
     pager = delta
 
 [interactive]

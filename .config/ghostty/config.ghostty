@@ -1,8 +1,27 @@
-background-opacity = 0.9
-background-blur = true
-window-padding-x = 5
-window-padding-y = 5
+# --- Base ---
 font-size = 10
 theme = Catppuccin Frappe
 copy-on-select = clipboard
-font-family = "MonaspaceNeon-Regular"
+font-family = "Monaspace Neon"
+
+# --- Font ---
+font-family-bold = "Monaspace Neon"
+font-feature = calt
+font-feature = liga
+adjust-cell-height = 10%
+
+# --- Cursor ---
+cursor-style = bar
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+# --- Behavior ---
+mouse-hide-while-typing = true
+scrollback-limit = 100000000
+window-inherit-working-directory = true
+clipboard-paste-protection = false
+
+# --- Window (GTK/KDE) ---
+gtk-titlebar = false
+window-padding-balance = true
+unfocused-split-opacity = 0.85
