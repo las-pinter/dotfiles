@@ -45,6 +45,7 @@ kmenuedit
 knighttime
 kpipewire
 krdp
+krita
 kscreen
 kscreenlocker
 ksshaskpass
@@ -60,6 +61,7 @@ less
 libappindicator
 libkscreen
 libksysguard
+libmypaint
 libplasma
 libva-nvidia-driver
 linux-firmware
@@ -70,10 +72,12 @@ lutris
 man-db
 mda.lv2
 milou
+neovim
 networkmanager
 nmap
 nss-mdns
 ntfs-3g
+ntfsprogs
 ntsync-autoload
 nvidia-open-lts
 nvidia-settings
@@ -119,16 +123,20 @@ python-pyqt5
 python-pyqt6
 qqc2-breeze-style
 razergenie
+rsync
 sddm
 sddm-kcm
 sl
 spectacle
+sshfs
 starship
 steam
 steamcmd
 sudo
 systemsettings
+tailscale
 tmux
+tree-sitter-cli
 union
 vim
 virtualbox
@@ -144,5 +152,5 @@ wine-mono
 wl-clipboard
 xdg-desktop-portal-kde
 yay
-yay-debug
+yt-dlp
 zoxide
